@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+    background-color: brown;
+}
+p {
+    color: rgb(197, 197, 220);
+    margin-left: auto;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+h1 {
+    color: rgb(43, 226, 168);
+    margin-left: auto;
+    font-style: oblique;
+    font: size 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+a:link {
+  background-color: yellow;
+}
+/* visited link */
+a:visited {
+  color: rgb(222, 86, 86);
+}
+a:hover {
+  text-decoration:underline chocolate;
+}
+a:active {
+  background-color: rgb(12, 0, 6);
+} 
+.button {
+  background-color: #011403;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 3px 2px;
+  cursor: pointer;
+}
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+.button2 {border-radius: 50%;}
+
+
+</style>
+</head>
+<body>
+    <center><h1>Assignment 1:basic text styling</h1></center>
+
+    <center><p>hello world</p></center>
+    <center><p>these are my css assignments</p></center><hr>
+
+<center><h1>Assignment 2:box model</h1></center>
+
+
+<p>this is a box</p>
+
+<div>This text is written inside the box</div><hr>
+<center><h1>Assignment 3:styling links</h1></center>
+<center><h2>Styling a link with background-color property</h2>
+</center>
+<center><p><a href="https://www.w3schools.com/css/default.asp" target="_parent">w3 schools </a></p></center>
+<center><p><p><b><a href="https://www.google.co.uk/" target="_blank">google</a></b></p>
+</p></center><hr>
+<center><h1>Assignment 4: styling buttons</h1></center>
+<center><a href="#" class="button">Link Button</a></center>
+<center><p>A rounded button</p>
+</center>
+<center><button class="button button2">iam rounded</button></center><hr>
+<center><h1>Assignment 5:styling forms</h1></center>
+
+<form action="#" method="post">
+  <h2>Sign Up</h2>
+
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" required placeholder="type">
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required placeholder="type">
+
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password" required>
+
+  <label for="bio">Bio</label>
+  <textarea id="bio" name="bio" rows="4" placeholder="type"></textarea>
+
+  <button type="submit">Submit</button>
+</form>
+
+
+
+</body>
+</html>
+
+
